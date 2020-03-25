@@ -1,0 +1,13 @@
+{
+  "require" : {
+    "phpmailer/phpmailer": "^6.1",
+    "twig/twig": "^1.42",
+    "clancats/hydrahon": "^1.1"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "core\\" : "core//",
+      "src\\" : "src//"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root
+{
+  --viewport-center:1110px;
+  --header-height:90px;
+}
+.display--flex
+{
+  display:-webkit-box; display:-ms-flexbox; display:flex;
+}
+.flex--align--center
+{
+ display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center;
+}
+
+.header
+{
+  width:100%; height:var(--header-height); background-color:#0A202B;
+}
+.header__container
+{
+  width:100%; max-width:var(--viewport-center); height:var(--header-height);
+}
+.header__aside
+{
+ flex-grow:2;
+}
+.header__navigation
+{
+  flex-grow:1; justify-content: space-between; align-items: center;
+}
+.header__navigation ul
+{
+  align-items:center;
+}
+.header__navigation ul li a
+{
+  padding:10px 10px; font-family: 'Roboto', sans-serif; font-size:16px; transition:color 0.3s linear;
+}
+.header__navigation ul li a:hover
+{
+  color:#65be97;
+}
+.navigation__users
+{
+  width:100%; max-width:200px;
+}
+.navigation__users ul
+{
+  justify-content: space-between;
+}
+.navigation__users ul li a
+{
+ border:1px solid #fff; padding:10px 15px; box-sizing: border-box;
+ border-radius:2px;
+}
+.navigation__users .register
+{
+  background:#65be97; border:2px solid transparent; color:#fff; transition:color 0.3s linear;
+}
+.navigation__users .register:hover
+{
+  color:#fff;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.main__banner
+{
+  width:100%; height:calc(100vh - 90px); background:rgba(35, 117, 81, 1); align-items:center;
+}
+.banner__container
+{
+  width:100%; max-width:1110px; margin:auto; height:330px;
+}
+.borda-ondulada
+{
+  fill:rgb(35, 117, 81, 1); width:100%; height:40px;
+}
+
+.main__sobre
+{
+  width:100%; height:400px; background:#0A202B;
+}
+.error-page
+{
+  height:calc(100vh - 90px);
+  background:#fff; background-image:url('../_image/404.jpg'); background-repeat: no-repeat; background-size:70%; background-position:center;
+}
+.banner__users
+{
+ flex:1;
+}
+.banner__prologo
+{
+ flex:1; flex-direction:column;
+}
+.prologo__one
+{
+ flex:1; font-family: 'Oswald', sans-serif; font-size:27px;
+ line-height:50px; color:#fff;
+}
+.prologo__two
+{
+  flex:1; font-family: 'Roboto', sans-serif; font-size:16px; color:#f9f2e8;
+}
+.prologo_three
+{
+  flex:1;
+}
+.button-colaborador
+{
+  width:100%; display:block; text-align: center; background:#174432; color:#4cb88a;  padding:10px;
+  box-sizing: border-box; font-family:'Roboto', sans-serif; border-radius:5px; transition:background 0.5s linear;
+  transition:color 0.5s linear;
+}
+.button-colaborador:hover
+{
+  color:#fff; background:#153d2c;
+}
